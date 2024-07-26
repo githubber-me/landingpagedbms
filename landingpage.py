@@ -1,7 +1,5 @@
 import streamlit as st
 
-from login import life
-
 def right():
     st.title("Hackathon Management")
 
@@ -44,7 +42,6 @@ def right():
                     """,
                     unsafe_allow_html=True
                 )
-                # Optionally, you could call the `life()` function here, if needed.
 
 if __name__ == "__main__":
     right()
