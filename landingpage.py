@@ -38,7 +38,7 @@ def right():
                 # Redirect to the external website
                 st.markdown(
                     """
-                    <meta http-equiv="refresh" content="0; url=https://hackathandbms.com" />
+                    <meta http-equiv="refresh" content="0; url=https://dbmslog.streamlit.app/" />
                     """,
                     unsafe_allow_html=True
                 )
